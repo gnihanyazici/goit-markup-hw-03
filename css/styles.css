@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sayfa{
+    border: 1px solid #FFFFFF;
+    width: 1440px;
+    height: 3300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 72px;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.logo {
+    font-family: "raleway" sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.web {
+    color: #4D5AE5;
+}
+.studio {
+    color: #2E2F42;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+}
+
+.menu {
+    font-family: "roboto" ;
+    font-weight: "medium";
+    font-size: 16px;
+    color: #2E2F42;
+    display: flex;
+} 
+ul {
+    display: inline;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+}
+
+.adres {
+    gap: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.baslik {
+    border: 1px solid #2E2F42;
+    width: 1440px;
+    height: 600px;
+    background-color: #2E2F42;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+
+}
+.baslik h1{
+    color: #FFFFFF;
+    font-family: "roboto";
+    font-weight: "700";
+    font-size: 56px;
+    text-align: center;
+    line-height: 107%;
+}
+   
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-family: "roboto";
+    font-weight: "medium";
+    font-size: 12px;
+    cursor: pointer;
+    border: 10px;
+    width: 169;
+    height: 56;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: block;
+    margin: 0 auto;
+}
+button:hover {
+    background-color: #404BBF;
+        color: #FFFFFF;
+        font-family: "roboto";
+        font-weight: "medium";
+        font-size: 12px;
+        width: 169;
+        height: 56;
+}
+
+.container1 {
+    display: flex;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 1128px;
+    height: 104px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px;
+    box-sizing: border-box;
+
+}
+
+.ozet {
+    display: flex;
+    color: #2E2F42;
+    font-family: "roboto";
+    font-weight: "medium";
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.ozet p {
+    color: #2E2F42;
+    font-family: "roboto";
+    font-weight: "medium";
+    font-size: 16px;
+
+}
+
+.ozellik {
+    display: block;
+    color: #2E2F42;
+    font-family: "roboto";
+    font-weight: "medium";
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;
+    
+}
+
+.containerot {
+    background-color: #D9D9D9;
+    border: 1px solid #FFFFFF;
+    width: 1440px;
+    height: 732px;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.ourteam{
+    display: flex;
+}
+.ot {
+    border: 1px solid #F4F4FD;
+    background-color: #FFFFFF;
+    
+}
+
+.containerop{
+    border: 1px solid #FFFFFF ;
+    width: 1128px;
+    height: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.ourport {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+    border: 1px solid #FFFFFF;
+    padding: auto;
+    margin: auto;
+    
+}   
+
+.border{
+    border: 1px solid #e7e9fc;
+    padding: 10px;
+    text-align: center;
+}
+h2 {
+    color: #2E2F42;
+    font-family: "roboto";
+        font-weight: "bold";
+        font-size: 36px;
+}
+
+.ft {
+    background-color: #2E2F42;
+    border: 1px solid;
+    width: 1440px;
+    height: 312px;
+    padding: auto;
+        margin: auto;
+
+}
+.foot {
+    color: #FFFFFF;
+    font-family: "roboto";
+    font-weight: "regular";
+    font-size: 16px;
+    text-align: center;
+
+}
+.logo1 {
+    font-family: "raleway" sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.studio1 {
+    color: #F4F4FD;
+}
