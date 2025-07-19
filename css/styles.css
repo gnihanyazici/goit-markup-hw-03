@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.sayfa{
+.container{
     border: 1px solid #FFFFFF;
-    width: 1440px;
+    width: 1158px;
     height: 3300px;
     justify-content: center;
     align-items: center;
 }
 
-.container{
+.containerx{
     display: flex;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #e7e9fc;
     background-color: #FFFFFF;
     width: 1440px;
     height: 72px;
@@ -67,6 +67,7 @@ ul {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    padding: 120px;
     
 
 }
@@ -114,7 +115,7 @@ button:hover {
     align-items: center;
     margin: 32px;
     box-sizing: border-box;
-
+    padding: 120px;  
 }
 
 .ozet {
@@ -155,8 +156,7 @@ button:hover {
     height: 732px;
     justify-content: space-around;
     align-items: center;
-    padding: auto;
-    margin: auto;
+    padding: 120px;
     box-sizing: border-box;
 }
 
@@ -175,8 +175,7 @@ button:hover {
     height: 1000px;
     justify-content: space-around;
     align-items: center;
-    padding: auto;
-    margin: auto;
+    padding: 120px;
     flex-wrap: wrap;
     box-sizing: border-box;
 }
@@ -186,8 +185,6 @@ button:hover {
     gap: 20px;
     list-style: none;
     border: 1px solid #FFFFFF;
-    padding: auto;
-    margin: auto;
     
 }   
 
@@ -199,8 +196,8 @@ button:hover {
 h2 {
     color: #2E2F42;
     font-family: "roboto";
-        font-weight: "bold";
-        font-size: 36px;
+    font-weight: "bold";
+    font-size: 36px;
 }
 
 .ft {
@@ -208,8 +205,7 @@ h2 {
     border: 1px solid;
     width: 1440px;
     height: 312px;
-    padding: auto;
-        margin: auto;
+    padding: 120px;
 
 }
 .foot {
@@ -217,7 +213,7 @@ h2 {
     font-family: "roboto";
     font-weight: "regular";
     font-size: 16px;
-    text-align: center;
+    padding: 120px;
 
 }
 .logo1 {
