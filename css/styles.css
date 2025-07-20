@@ -7,6 +7,9 @@
     height: 3300px;
     justify-content: center;
     align-items: center;
+    max-width: 1158px;
+    padding-left: 15px;
+        padding-right: 15px;
 }
 
 .containerx{
@@ -18,7 +21,9 @@
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
-
+    max-width: 1158px;
+    padding-left: 15px;
+        padding-right: 15px;
 }
 .logo {
     font-family: "raleway" sans-serif;
@@ -36,6 +41,7 @@ body {
     font-family: "roboto", sans-serif;
     color: #434455;
     font-size: 16px;
+    background-color: #FFFFFF;
 }
 
 .menu {
@@ -44,6 +50,7 @@ body {
     font-size: 16px;
     color: #2E2F42;
     display: flex;
+    text-decoration: none;
 } 
 ul {
     display: inline;
@@ -56,6 +63,7 @@ ul {
     gap: 20px;
     display: flex;
     flex-direction: row-reverse;
+    text-decoration: none;
 }
 
 
@@ -67,8 +75,8 @@ ul {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 120px;
-    
+    padding: 150px;
+    max-width: 1158px;
 
 }
 .baslik h1{
@@ -78,8 +86,10 @@ ul {
     font-size: 56px;
     text-align: center;
     line-height: 107%;
+    margin: 0 auto;
+    padding: 150;
 }
-   
+
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;
@@ -97,12 +107,17 @@ button {
 }
 button:hover {
     background-color: #404BBF;
-        color: #FFFFFF;
-        font-family: "roboto";
-        font-weight: "medium";
-        font-size: 12px;
-        width: 169;
-        height: 56;
+    color: #FFFFFF;
+    font-family: "roboto";
+    font-weight: "medium";
+    font-size: 12px;
+     width: 169;
+    height: 56;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .container1 {
@@ -111,11 +126,15 @@ button:hover {
     background-color: #FFFFFF;
     width: 1128px;
     height: 104px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 32px;
     box-sizing: border-box;
     padding: 120px;  
+    gap: 24px;
+    margin: 0 auto;
+    max-width: 1158px;
+    padding-left: 15px;
+        padding-right: 15px;
 }
 
 .ozet {
@@ -124,9 +143,22 @@ button:hover {
     font-family: "roboto";
     font-weight: "medium";
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1,2;
+    margin-bottom: 8px;
     background-color: #FFFFFF;
     box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 .ozet p {
@@ -134,7 +166,7 @@ button:hover {
     font-family: "roboto";
     font-weight: "medium";
     font-size: 16px;
-
+    text-align: center;
 }
 
 .ozellik {
@@ -145,8 +177,7 @@ button:hover {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2%;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .containerot {
@@ -158,6 +189,11 @@ button:hover {
     align-items: center;
     padding: 120px;
     box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1158px;
+    padding-left: 15px;
+        padding-right: 15px;
 }
 
 .ourteam{
@@ -165,8 +201,7 @@ button:hover {
 }
 .ot {
     border: 1px solid #F4F4FD;
-    background-color: #FFFFFF;
-    
+    background-color: #FFFFFF;   
 }
 
 .containerop{
@@ -178,14 +213,17 @@ button:hover {
     padding: 120px;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1158px;
+    padding-left: 15px;
+        padding-right: 15px;
 }
 .ourport {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     list-style: none;
-    border: 1px solid #FFFFFF;
-    
+    border: 1px solid #FFFFFF;  
 }   
 
 .border{
@@ -193,11 +231,13 @@ button:hover {
     padding: 10px;
     text-align: center;
 }
+
 h2 {
     color: #2E2F42;
     font-family: "roboto";
     font-weight: "bold";
     font-size: 36px;
+    text-align: center;
 }
 
 .ft {
@@ -206,16 +246,20 @@ h2 {
     width: 1440px;
     height: 312px;
     padding: 120px;
-
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
+
 .foot {
     color: #FFFFFF;
     font-family: "roboto";
     font-weight: "regular";
     font-size: 16px;
     padding: 120px;
-
 }
+
 .logo1 {
     font-family: "raleway" sans-serif;
     font-size: 18px;
