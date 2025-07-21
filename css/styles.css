@@ -199,6 +199,8 @@ ul {
 
 .ourteam{
     display: flex;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 .ot {
     border: 1px solid #F4F4FD;
@@ -217,7 +219,7 @@ ul {
     margin: 0 auto;
     max-width: 1158px;
     padding-left: 15px;
-        padding-right: 15px;
+    padding-right: 15px;
 }
 .ourport {
     display: grid;
@@ -239,6 +241,7 @@ h2 {
     font-weight: "bold";
     font-size: 36px;
     text-align: center;
+    padding-bottom: 72px;
 }
 
 .ft {
@@ -248,8 +251,8 @@ h2 {
     height: 312px;
     padding: 120px;
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 156;
+    padding-right: 156;
     margin: 0 auto;
 }
 
