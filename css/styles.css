@@ -249,7 +249,7 @@ h2 {
     border: 1px solid;
     width: 1440px;
     height: 312px;
-    padding: 120px;
+    padding: 60px 120px;
     max-width: 1158px;
     padding-left: 156;
     padding-right: 156;
@@ -261,7 +261,8 @@ h2 {
     font-family: "roboto";
     font-weight: "regular";
     font-size: 16px;
-    padding: 120px;
+    max-width: 264px;
+    line-height: 1.5;
 }
 
 .logo1 {
