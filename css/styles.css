@@ -4,12 +4,12 @@
 .container{
     border: 1px solid #FFFFFF;
     width: 1158px;
-    height: 3300px;
     justify-content: center;
     align-items: center;
     max-width: 1158px;
     padding-left: 15px;
-        padding-right: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .containerx{
@@ -23,7 +23,8 @@
     box-sizing: border-box;
     max-width: 1158px;
     padding-left: 15px;
-        padding-right: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 .logo {
     font-family: "raleway" sans-serif;
@@ -134,11 +135,29 @@ section{
     margin: 0 auto;
     max-width: 1158px;
     padding-left: 15px;
-        padding-right: 15px;
+    padding-right: 15px;
+}
+
+.container1 ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 h3{
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 8px;
+}
+   
+.container p {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .ozet {
-    display: flex;
+    display: block;
     color: #2E2F42;
     font-family: "roboto";
     font-weight: "medium";
@@ -146,7 +165,7 @@ section{
     line-height: 1,2;
     margin-bottom: 8px;
     background-color: #FFFFFF;
-    box-sizing: border-box;
+    text-align: center;
 }
 
 h1,
@@ -161,15 +180,6 @@ ul {
     padding: 0;
 }
 
-.ozet p {
-    color: #2E2F42;
-    font-family: "roboto";
-    font-weight: "medium";
-    font-size: 16px;
-    text-align: center;
-    padding: 120;
-}
-
 .ozellik {
     display: block;
     color: #2E2F42;
@@ -177,12 +187,11 @@ ul {
     font-weight: "medium";
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 2%;
-    text-align: center;  
+    letter-spacing: 2%; 
 }
 
 .containerot {
-    background-color: #D9D9D9;
+    background-color: #F4F4FD;
     border: 1px solid #FFFFFF;
     width: 1440px;
     height: 732px;
@@ -190,11 +199,10 @@ ul {
     align-items: center;
     padding: 120px;
     box-sizing: border-box;
-    text-align: center;
     margin: 0 auto;
     max-width: 1158px;
     padding-left: 15px;
-        padding-right: 15px;
+    padding-right: 15px;
 }
 
 .ourteam{
@@ -205,21 +213,17 @@ ul {
 .ot {
     border: 1px solid #F4F4FD;
     background-color: #FFFFFF;   
+    text-align: center;
 }
 
 .containerop{
     border: 1px solid #FFFFFF ;
     width: 1128px;
-    height: 1000px;
     justify-content: space-around;
     align-items: center;
-    padding: 120px;
     flex-wrap: wrap;
-    box-sizing: border-box;
     margin: 0 auto;
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .ourport {
     display: grid;
@@ -232,7 +236,6 @@ ul {
 .border{
     border: 1px solid #e7e9fc;
     padding: 10px;
-    text-align: center;
 }
 
 h2 {
@@ -269,6 +272,7 @@ h2 {
     font-family: "raleway" sans-serif;
     font-size: 18px;
     font-weight: bold;
+    padding: 16px;
 }
 
 .web {
